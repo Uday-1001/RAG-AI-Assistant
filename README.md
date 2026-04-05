@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
+## How to Use?
 
 ### Step 1: Add lecture videos
 
