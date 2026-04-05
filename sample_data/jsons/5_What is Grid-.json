@@ -1,0 +1,208 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "5_What is Grid-",
+            "start": 0.0,
+            "end": 21.0,
+            "text": "Hi everyone, now we are going to start with CSS Grid We have increased Flexbox in detail till now. Flexbox helps us to create a layout of elements in one direction If we keep the direction of Flexbox row, then we can create a layout in horizontal direction If we keep the direction column, then we can create a layout in vertical direction"
+        },
+        {
+            "chunk_id": 2,
+            "title": "5_What is Grid-",
+            "start": 16.0,
+            "end": 38.0,
+            "text": "If we keep the direction column, then we can create a layout in vertical direction Similarly, to design elements, we have a grid in CSS Grid is very similar to Flexbox But in Grid, we can design a layout in 2D as compared to Flexbox where we can design our layout in one direction"
+        },
+        {
+            "chunk_id": 3,
+            "title": "5_What is Grid-",
+            "start": 29.0,
+            "end": 57.0,
+            "text": "But in Grid, we can design a layout in 2D as compared to Flexbox where we can design our layout in one direction So, setting a container's display to Grid will make all the children grid items In Flexbox, we used to consider a layout as a container We call it as Flex Container"
+        },
+        {
+            "chunk_id": 4,
+            "title": "5_What is Grid-",
+            "start": 54.0,
+            "end": 73.0,
+            "text": "We call it as Flex Container We have many items inside which are children's items Similarly, we have similar things in Grid In Grid, we will call the outer container as Grid Container"
+        },
+        {
+            "chunk_id": 5,
+            "title": "5_What is Grid-",
+            "start": 68.0,
+            "end": 87.0,
+            "text": "In Grid, we will call the outer container as Grid Container And we will call the different items inside Grid If we want to apply Grid's properties on any container, then we will have to write in the container Display Grid"
+        },
+        {
+            "chunk_id": 6,
+            "title": "5_What is Grid-",
+            "start": 85.0,
+            "end": 102.0,
+            "text": "Display Grid Very similar to when we want to apply Flex's properties on any container We used to write Display Flex, similarly we are writing Display Grid Now, Grid and Flexbox are both very important when we talk about the layout of the website"
+        },
+        {
+            "chunk_id": 7,
+            "title": "5_What is Grid-",
+            "start": 95.0,
+            "end": 116.0,
+            "text": "Now, Grid and Flexbox are both very important when we talk about the layout of the website But in practical cases, Flexbox is used more as compared to Grid Grid has very good use cases, but they are specific use cases Whenever we want to design a data in tabular form or in 2D layout, then we use Grid"
+        },
+        {
+            "chunk_id": 8,
+            "title": "5_What is Grid-",
+            "start": 110.0,
+            "end": 132.0,
+            "text": "Whenever we want to design a data in tabular form or in 2D layout, then we use Grid But in maximum cases, we use Flexbox for the styling of our website Because generally, we are designing our layout in one direction Now, if we talk about the diagram, then the direct children in Grid Container will be our grid items"
+        },
+        {
+            "chunk_id": 9,
+            "title": "5_What is Grid-",
+            "start": 125.0,
+            "end": 144.0,
+            "text": "Now, if we talk about the diagram, then the direct children in Grid Container will be our grid items Like in Flexbox, we have direct children of Flex Container We have already taught them that if we have made a div Suppose this is my div, if we have made this H1 in the div"
+        },
+        {
+            "chunk_id": 10,
+            "title": "5_What is Grid-",
+            "start": 140.0,
+            "end": 158.0,
+            "text": "Suppose this is my div, if we have made this H1 in the div And we have made another div, which has another H1 in it So, if we have created a random layout in this way So, if this is my Flexbox container in this layout, then in that case,"
+        },
+        {
+            "chunk_id": 11,
+            "title": "5_What is Grid-",
+            "start": 153.0,
+            "end": 170.0,
+            "text": "So, if this is my Flexbox container in this layout, then in that case, This H1 will be my FlexItem and this div will be my FlexItem This H1 will not be my FlexItem because it is not a direct child The direct children of div are only my H1 and only my div"
+        },
+        {
+            "chunk_id": 12,
+            "title": "5_What is Grid-",
+            "start": 167.0,
+            "end": 183.0,
+            "text": "The direct children of div are only my H1 and only my div Similarly, if we have made this div as Grid Container Then this H1 will be my GridItem and this div will be my GridItem This H1 will not be my GridItem because it is not a direct child"
+        },
+        {
+            "chunk_id": 13,
+            "title": "5_What is Grid-",
+            "start": 179.0,
+            "end": 193.0,
+            "text": "This H1 will not be my GridItem because it is not a direct child So, in this way, we can make a container We can make different items in the container And then, we can give the container a grid and set all the grid properties"
+        },
+        {
+            "chunk_id": 14,
+            "title": "5_What is Grid-",
+            "start": 188.0,
+            "end": 206.0,
+            "text": "And then, we can give the container a grid and set all the grid properties What we will do for that? We have already made a folder We have named it folder, we have put CSS, it has index.html, style.css We will create some items in index.html"
+        },
+        {
+            "chunk_id": 15,
+            "title": "5_What is Grid-",
+            "start": 202.0,
+            "end": 222.0,
+            "text": "We will create some items in index.html First, let's keep a heading, let's call it Grid Playground After that, we will make our div container Inside div, we will give it a class, container"
+        },
+        {
+            "chunk_id": 16,
+            "title": "5_What is Grid-",
+            "start": 215.0,
+            "end": 235.0,
+            "text": "Inside div, we will give it a class, container There are many items in it, we will give a class to everyone Box or we can give it an item class This is my first item, we will write number 1 in it"
+        },
+        {
+            "chunk_id": 17,
+            "title": "5_What is Grid-",
+            "start": 231.0,
+            "end": 249.0,
+            "text": "This is my first item, we will write number 1 in it This is my item 2 And in the same way, we can create our different boxes Let's suppose, for now, we will create our 5 boxes"
+        },
+        {
+            "chunk_id": 18,
+            "title": "5_What is Grid-",
+            "start": 246.0,
+            "end": 260.0,
+            "text": "Let's suppose, for now, we will create our 5 boxes Let's do this, save and add some styling For our container, we can keep some width Let's call the width 500 or 600 pixels"
+        },
+        {
+            "chunk_id": 19,
+            "title": "5_What is Grid-",
+            "start": 256.0,
+            "end": 269.0,
+            "text": "Let's call the width 500 or 600 pixels And we can keep this same thing in height But let's reduce it to 300 pixels in height Let's give it a background color"
+        },
+        {
+            "chunk_id": 20,
+            "title": "5_What is Grid-",
+            "start": 267.0,
+            "end": 287.0,
+            "text": "Let's give it a background color Let's give it a sure, safe and in the same way, we can set it for items Let's set the width, let's suppose 100 pixels Let's set the height also, 100 pixels"
+        },
+        {
+            "chunk_id": 21,
+            "title": "5_What is Grid-",
+            "start": 284.0,
+            "end": 300.0,
+            "text": "Let's set the height also, 100 pixels And let's give it a background color Green-yellow and along with it, we can give it a border Which is 2 pixels, solid, black"
+        },
+        {
+            "chunk_id": 22,
+            "title": "5_What is Grid-",
+            "start": 296.0,
+            "end": 311.0,
+            "text": "Which is 2 pixels, solid, black Safe and refresh So, in this way, we have created a whole layout If we give the background a black property, it will be a little clearer"
+        },
+        {
+            "chunk_id": 23,
+            "title": "5_What is Grid-",
+            "start": 306.0,
+            "end": 319.0,
+            "text": "If we give the background a black property, it will be a little clearer What we are showing, this is highlighted in black This is my grid container We have created 5 grid items in the grid container"
+        },
+        {
+            "chunk_id": 24,
+            "title": "5_What is Grid-",
+            "start": 315.0,
+            "end": 329.0,
+            "text": "We have created 5 grid items in the grid container This is my first grid item, this is my second grid item Third grid item, fourth and fifth We want to give it a height of 50 pixels in size"
+        },
+        {
+            "chunk_id": 25,
+            "title": "5_What is Grid-",
+            "start": 325.0,
+            "end": 339.0,
+            "text": "We want to give it a height of 50 pixels in size And let's align the text for it to center Safe, refresh Now, we are going to use this container and items to learn our grid layout"
+        },
+        {
+            "chunk_id": 26,
+            "title": "5_What is Grid-",
+            "start": 335.0,
+            "end": 350.0,
+            "text": "Now, we are going to use this container and items to learn our grid layout First of all, we will notice a small difference here That as soon as we give the container a display flex in the old section We used to do it safe and refresh"
+        },
+        {
+            "chunk_id": 27,
+            "title": "5_What is Grid-",
+            "start": 348.0,
+            "end": 361.0,
+            "text": "We used to do it safe and refresh The same was the case, items will automatically come in our row arrangement Because by default, the direction of the flex is the row And in that way, all the items were present in the row form"
+        },
+        {
+            "chunk_id": 28,
+            "title": "5_What is Grid-",
+            "start": 357.0,
+            "end": 372.0,
+            "text": "And in that way, all the items were present in the row form But if we gave the display grid here, we would have saved it and refreshed it All the items are in the vertical layout But there is some space in the middle when equally divided"
+        },
+        {
+            "chunk_id": 29,
+            "title": "5_What is Grid-",
+            "start": 369.0,
+            "end": 380.0,
+            "text": "But there is some space in the middle when equally divided Now, how all these things work In the grid, in the spacing, in the orientation We are going to understand it in detail"
+        }
+    ],
+    "full_text": "Hi everyone, now we are going to start with CSS Grid We have increased Flexbox in detail till now. Flexbox helps us to create a layout of elements in one direction If we keep the direction of Flexbox row, then we can create a layout in horizontal direction If we keep the direction column, then we can create a layout in vertical direction Similarly, to design elements, we have a grid in CSS Grid is very similar to Flexbox But in Grid, we can design a layout in 2D as compared to Flexbox where we can design our layout in one direction So, setting a container's display to Grid will make all the children grid items In Flexbox, we used to consider a layout as a container We call it as Flex Container We have many items inside which are children's items Similarly, we have similar things in Grid In Grid, we will call the outer container as Grid Container And we will call the different items inside Grid If we want to apply Grid's properties on any container, then we will have to write in the container Display Grid Very similar to when we want to apply Flex's properties on any container We used to write Display Flex, similarly we are writing Display Grid Now, Grid and Flexbox are both very important when we talk about the layout of the website But in practical cases, Flexbox is used more as compared to Grid Grid has very good use cases, but they are specific use cases Whenever we want to design a data in tabular form or in 2D layout, then we use Grid But in maximum cases, we use Flexbox for the styling of our website Because generally, we are designing our layout in one direction Now, if we talk about the diagram, then the direct children in Grid Container will be our grid items Like in Flexbox, we have direct children of Flex Container We have already taught them that if we have made a div Suppose this is my div, if we have made this H1 in the div And we have made another div, which has another H1 in it So, if we have created a random layout in this way So, if this is my Flexbox container in this layout, then in that case, This H1 will be my FlexItem and this div will be my FlexItem This H1 will not be my FlexItem because it is not a direct child The direct children of div are only my H1 and only my div Similarly, if we have made this div as Grid Container Then this H1 will be my GridItem and this div will be my GridItem This H1 will not be my GridItem because it is not a direct child So, in this way, we can make a container We can make different items in the container And then, we can give the container a grid and set all the grid properties What we will do for that? We have already made a folder We have named it folder, we have put CSS, it has index.html, style.css We will create some items in index.html First, let's keep a heading, let's call it Grid Playground After that, we will make our div container Inside div, we will give it a class, container There are many items in it, we will give a class to everyone Box or we can give it an item class This is my first item, we will write number 1 in it This is my item 2 And in the same way, we can create our different boxes Let's suppose, for now, we will create our 5 boxes Let's do this, save and add some styling For our container, we can keep some width Let's call the width 500 or 600 pixels And we can keep this same thing in height But let's reduce it to 300 pixels in height Let's give it a background color Let's give it a sure, safe and in the same way, we can set it for items Let's set the width, let's suppose 100 pixels Let's set the height also, 100 pixels And let's give it a background color Green-yellow and along with it, we can give it a border Which is 2 pixels, solid, black Safe and refresh So, in this way, we have created a whole layout If we give the background a black property, it will be a little clearer What we are showing, this is highlighted in black This is my grid container We have created 5 grid items in the grid container This is my first grid item, this is my second grid item Third grid item, fourth and fifth We want to give it a height of 50 pixels in size And let's align the text for it to center Safe, refresh Now, we are going to use this container and items to learn our grid layout First of all, we will notice a small difference here That as soon as we give the container a display flex in the old section We used to do it safe and refresh The same was the case, items will automatically come in our row arrangement Because by default, the direction of the flex is the row And in that way, all the items were present in the row form But if we gave the display grid here, we would have saved it and refreshed it All the items are in the vertical layout But there is some space in the middle when equally divided Now, how all these things work In the grid, in the spacing, in the orientation We are going to understand it in detail"
+}

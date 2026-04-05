@@ -1,0 +1,8 @@
+chromadb
+requests
+pandas
+numpy
+openai-whisper
+moviepy
+ffmpeg-python
+tqdm

@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "18_Sup & Sub Tags",
+            "start": 0.0,
+            "end": 14.9,
+            "text": "Next up we are going to talk about two special tags, sub and sub. These are short forms of subscript and superscript. So I am from a science background, I am from a math background. So for me, subscript superscript means it is very clear."
+        },
+        {
+            "chunk_id": 2,
+            "title": "18_Sup & Sub Tags",
+            "start": 12.1,
+            "end": 25.5,
+            "text": "So for me, subscript superscript means it is very clear. In fact, many J&E students will relate to it. But the maximum students may not have seen subscript superscript. If they have seen it, they must have seen it in their childhood, in biology books, in physics books."
+        },
+        {
+            "chunk_id": 3,
+            "title": "18_Sup & Sub Tags",
+            "start": 21.0,
+            "end": 36.1,
+            "text": "If they have seen it, they must have seen it in their childhood, in biology books, in physics books. But usually, if we had studied math in our childhood, we would have shown some form that we would write A plus B whole square. A square, C square, or 24 square."
+        },
+        {
+            "chunk_id": 4,
+            "title": "18_Sup & Sub Tags",
+            "start": 32.8,
+            "end": 45.3,
+            "text": "A square, C square, or 24 square. So in this way, we would write 2 for square. It is also called power in math. So the 2 we would write, it was a little small in size."
+        },
+        {
+            "chunk_id": 5,
+            "title": "18_Sup & Sub Tags",
+            "start": 42.3,
+            "end": 57.8,
+            "text": "So the 2 we would write, it was a little small in size. And it would come from our main number to the top. If I write A plus B, a little big in size, then 2 will always be small in size A and B. And what is 2? Power always goes above the number."
+        },
+        {
+            "chunk_id": 6,
+            "title": "18_Sup & Sub Tags",
+            "start": 54.5,
+            "end": 70.5,
+            "text": "And what is 2? Power always goes above the number. So the numbers or the things that are a little small in size and come from my main content to the top. In technical terms, it is called a superscript. Super means up."
+        },
+        {
+            "chunk_id": 7,
+            "title": "18_Sup & Sub Tags",
+            "start": 69.1,
+            "end": 78.5,
+            "text": "Super means up. Even from the top, you can remember it like that. Super means that comes from the top and is small in size. Now, when the superscript is small in size and comes from the top,"
+        },
+        {
+            "chunk_id": 8,
+            "title": "18_Sup & Sub Tags",
+            "start": 75.3,
+            "end": 89.2,
+            "text": "Now, when the superscript is small in size and comes from the top, it has a second version which we call subscript. Subscript is small in size but comes from the bottom of the main content. For example, we used to read a lot of formulas in science."
+        },
+        {
+            "chunk_id": 9,
+            "title": "18_Sup & Sub Tags",
+            "start": 86.2,
+            "end": 93.8,
+            "text": "For example, we used to read a lot of formulas in science. In childhood, we would read the formula of glucose. C6H12O6. So what was in this?"
+        },
+        {
+            "chunk_id": 10,
+            "title": "18_Sup & Sub Tags",
+            "start": 92.8,
+            "end": 102.6,
+            "text": "So what was in this? These numbers are small from the main content. And these 6 would be small from this C. If I write 6 here, it will come up when this 6 is a little small."
+        },
+        {
+            "chunk_id": 11,
+            "title": "18_Sup & Sub Tags",
+            "start": 98.7,
+            "end": 112.0,
+            "text": "If I write 6 here, it will come up when this 6 is a little small. If I want to write the formula of oxygen, chemical formula, then it will be O2. In this O, there are many small comparisons and it comes down. If I write the formula of water, then it will come to H2O."
+        },
+        {
+            "chunk_id": 12,
+            "title": "18_Sup & Sub Tags",
+            "start": 109.7,
+            "end": 122.1,
+            "text": "If I write the formula of water, then it will come to H2O. In which it will be 2H and O. Whenever we want to write such content in which our size text is small and it comes down, we call it subscript."
+        },
+        {
+            "chunk_id": 13,
+            "title": "18_Sup & Sub Tags",
+            "start": 118.8,
+            "end": 131.8,
+            "text": "and it comes down, we call it subscript. For example, we can see here. To write superscript, let's assume that I want to write something like this. To write superscript, we use SUP tag."
+        },
+        {
+            "chunk_id": 14,
+            "title": "18_Sup & Sub Tags",
+            "start": 128.0,
+            "end": 141.3,
+            "text": "To write superscript, we use SUP tag. This tag is something like this. This is my opening tag and my closing tag. And in the middle, we write the number or the content that I want to superscript."
+        },
+        {
+            "chunk_id": 15,
+            "title": "18_Sup & Sub Tags",
+            "start": 135.8,
+            "end": 149.10000000000002,
+            "text": "And in the middle, we write the number or the content that I want to superscript. So, if I write A, then I wrote 2 in SUP tag. So, what will come in my output? The output will increase in this way."
+        },
+        {
+            "chunk_id": 16,
+            "title": "18_Sup & Sub Tags",
+            "start": 146.9,
+            "end": 155.60000000000002,
+            "text": "The output will increase in this way. But this 2 will come up a little and it will be small. Let's talk about subscript. Suppose I write H2O."
+        },
+        {
+            "chunk_id": 17,
+            "title": "18_Sup & Sub Tags",
+            "start": 153.8,
+            "end": 164.8,
+            "text": "Suppose I write H2O. So, here my 2 is a little smaller than my normal H. And if I want to write H2O in HTML, then I have to write something like this. In which my H is an element of normal size."
+        },
+        {
+            "chunk_id": 18,
+            "title": "18_Sup & Sub Tags",
+            "start": 162.20000000000002,
+            "end": 172.7,
+            "text": "In which my H is an element of normal size. My O is also an element of normal size. And these 2 are coming here. If I write small in size and small in the bottom, then H2O will print on my screen like this."
+        },
+        {
+            "chunk_id": 19,
+            "title": "18_Sup & Sub Tags",
+            "start": 168.1,
+            "end": 178.0,
+            "text": "If I write small in size and small in the bottom, then H2O will print on my screen like this. Let's write this in code. I'll make a heading tag. I'll write A square in it."
+        },
+        {
+            "chunk_id": 20,
+            "title": "18_Sup & Sub Tags",
+            "start": 176.0,
+            "end": 186.5,
+            "text": "I'll write A square in it. So, I wrote A first. I'll nest it in it and make my super tag. Which is to save and run."
+        },
+        {
+            "chunk_id": 21,
+            "title": "18_Sup & Sub Tags",
+            "start": 183.9,
+            "end": 194.4,
+            "text": "Which is to save and run. So, something like this will happen in which A will be square. If there is an extra space here, then let's do it again. Refresh."
+        },
+        {
+            "chunk_id": 22,
+            "title": "18_Sup & Sub Tags",
+            "start": 193.6,
+            "end": 202.4,
+            "text": "Refresh. So, this is my A square. Similarly, I can write H2O in a similar way. I'll write H and I'll write subscript tag in it."
+        },
+        {
+            "chunk_id": 23,
+            "title": "18_Sup & Sub Tags",
+            "start": 198.9,
+            "end": 206.6,
+            "text": "I'll write H and I'll write subscript tag in it. In which I'll write H2 and here O. Let's do this. Save and now run."
+        },
+        {
+            "chunk_id": 24,
+            "title": "18_Sup & Sub Tags",
+            "start": 205.6,
+            "end": 215.20000000000002,
+            "text": "Save and now run. So, this way H2O will display on my screen. Now, another interesting thing is that my H1 and my SUP. Or H1 is my main tag."
+        },
+        {
+            "chunk_id": 25,
+            "title": "18_Sup & Sub Tags",
+            "start": 213.70000000000002,
+            "end": 223.6,
+            "text": "Or H1 is my main tag. In which this SUP, the sub tag is nested. We have already talked about nested tags. Those tags come in each other."
+        },
+        {
+            "chunk_id": 26,
+            "title": "18_Sup & Sub Tags",
+            "start": 221.5,
+            "end": 238.2,
+            "text": "Those tags come in each other. So, if everyone comes inside H1, then the sub tag is nested in H1 tag. And if they relate to their parent-child, then we had discussed that too. The one on the outside is called parent and the one on the inside is called child."
+        },
+        {
+            "chunk_id": 27,
+            "title": "18_Sup & Sub Tags",
+            "start": 232.79999999999998,
+            "end": 246.79999999999998,
+            "text": "The one on the outside is called parent and the one on the inside is called child. So, my H1 tag is in the parent relationship here. And my sub tag is in the child relationship. And there was another tag in the sub."
+        },
+        {
+            "chunk_id": 28,
+            "title": "18_Sup & Sub Tags",
+            "start": 244.7,
+            "end": 255.7,
+            "text": "And there was another tag in the sub. That is, if I had to make this 2 italic. Or if I wanted to underline this 2. So, in this way, I would have written this 2 here."
+        },
+        {
+            "chunk_id": 29,
+            "title": "18_Sup & Sub Tags",
+            "start": 252.1,
+            "end": 259.9,
+            "text": "So, in this way, I would have written this 2 here. Save and now run. So, H2O came. 2 became my subscript."
+        },
+        {
+            "chunk_id": 30,
+            "title": "18_Sup & Sub Tags",
+            "start": 258.4,
+            "end": 266.1,
+            "text": "2 became my subscript. But 2 became underlined along with 7. So, this is my parent-child. And everyone has another child."
+        },
+        {
+            "chunk_id": 31,
+            "title": "18_Sup & Sub Tags",
+            "start": 264.4,
+            "end": 272.8,
+            "text": "And everyone has another child. Whose name is underlined tag. So, in this way, there is a nest in Html. Which we are seeing a lot in real life."
+        }
+    ],
+    "full_text": "Next up we are going to talk about two special tags, sub and sub. These are short forms of subscript and superscript. So I am from a science background, I am from a math background. So for me, subscript superscript means it is very clear. In fact, many J&E students will relate to it. But the maximum students may not have seen subscript superscript. If they have seen it, they must have seen it in their childhood, in biology books, in physics books. But usually, if we had studied math in our childhood, we would have shown some form that we would write A plus B whole square. A square, C square, or 24 square. So in this way, we would write 2 for square. It is also called power in math. So the 2 we would write, it was a little small in size. And it would come from our main number to the top. If I write A plus B, a little big in size, then 2 will always be small in size A and B. And what is 2? Power always goes above the number. So the numbers or the things that are a little small in size and come from my main content to the top. In technical terms, it is called a superscript. Super means up. Even from the top, you can remember it like that. Super means that comes from the top and is small in size. Now, when the superscript is small in size and comes from the top, it has a second version which we call subscript. Subscript is small in size but comes from the bottom of the main content. For example, we used to read a lot of formulas in science. In childhood, we would read the formula of glucose. C6H12O6. So what was in this? These numbers are small from the main content. And these 6 would be small from this C. If I write 6 here, it will come up when this 6 is a little small. If I want to write the formula of oxygen, chemical formula, then it will be O2. In this O, there are many small comparisons and it comes down. If I write the formula of water, then it will come to H2O. In which it will be 2H and O. Whenever we want to write such content in which our size text is small and it comes down, we call it subscript. For example, we can see here. To write superscript, let's assume that I want to write something like this. To write superscript, we use SUP tag. This tag is something like this. This is my opening tag and my closing tag. And in the middle, we write the number or the content that I want to superscript. So, if I write A, then I wrote 2 in SUP tag. So, what will come in my output? The output will increase in this way. But this 2 will come up a little and it will be small. Let's talk about subscript. Suppose I write H2O. So, here my 2 is a little smaller than my normal H. And if I want to write H2O in HTML, then I have to write something like this. In which my H is an element of normal size. My O is also an element of normal size. And these 2 are coming here. If I write small in size and small in the bottom, then H2O will print on my screen like this. Let's write this in code. I'll make a heading tag. I'll write A square in it. So, I wrote A first. I'll nest it in it and make my super tag. Which is to save and run. So, something like this will happen in which A will be square. If there is an extra space here, then let's do it again. Refresh. So, this is my A square. Similarly, I can write H2O in a similar way. I'll write H and I'll write subscript tag in it. In which I'll write H2 and here O. Let's do this. Save and now run. So, this way H2O will display on my screen. Now, another interesting thing is that my H1 and my SUP. Or H1 is my main tag. In which this SUP, the sub tag is nested. We have already talked about nested tags. Those tags come in each other. So, if everyone comes inside H1, then the sub tag is nested in H1 tag. And if they relate to their parent-child, then we had discussed that too. The one on the outside is called parent and the one on the inside is called child. So, my H1 tag is in the parent relationship here. And my sub tag is in the child relationship. And there was another tag in the sub. That is, if I had to make this 2 italic. Or if I wanted to underline this 2. So, in this way, I would have written this 2 here. Save and now run. So, H2O came. 2 became my subscript. But 2 became underlined along with 7. So, this is my parent-child. And everyone has another child. Whose name is underlined tag. So, in this way, there is a nest in Html. Which we are seeing a lot in real life."
+}
