@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "26_Practice Qs",
+            "start": 0.0,
+            "end": 14.66,
+            "text": "Now let's move on to the practical question number 6. The task I have given is to add a semantic markup to your portfolio page. That is, we have to add a semantic markup to the portfolio page we are building. Which tags can you add to it?"
+        },
+        {
+            "chunk_id": 2,
+            "title": "26_Practice Qs",
+            "start": 12.32,
+            "end": 29.26,
+            "text": "Which tags can you add to it? It is completely up to us because there are multiple tags that exist. Obviously, the paragraph tags or heading tags that we have already used are already our semantic tags that have been implemented. Apart from this, I have a header tag that we can use."
+        },
+        {
+            "chunk_id": 3,
+            "title": "26_Practice Qs",
+            "start": 25.26,
+            "end": 43.42,
+            "text": "Apart from this, I have a header tag that we can use. And we have a footer that we can make. Along with that, we have made a section for skills and education. We can use a section tag for these sections."
+        },
+        {
+            "chunk_id": 4,
+            "title": "26_Practice Qs",
+            "start": 38.42,
+            "end": 56.92,
+            "text": "We can use a section tag for these sections. We will use a footer tag, a header tag and a section tag because all these are related content in the skills. All these are related content in education. So, let's use these three semantic tags with our portfolio page."
+        },
+        {
+            "chunk_id": 5,
+            "title": "26_Practice Qs",
+            "start": 52.92,
+            "end": 63.92,
+            "text": "So, let's use these three semantic tags with our portfolio page. I have my portfolio page. I can open it if I want. This is how I am showing my page right now."
+        },
+        {
+            "chunk_id": 6,
+            "title": "26_Practice Qs",
+            "start": 61.92,
+            "end": 79.92,
+            "text": "This is how I am showing my page right now. I want the top part of the page to be the header of the website. So, what I will do is I will put it in my header. So, all this content will come into my header."
+        },
+        {
+            "chunk_id": 7,
+            "title": "26_Practice Qs",
+            "start": 74.92,
+            "end": 91.92,
+            "text": "So, all this content will come into my header. Let's save it. And this has now become my header. Now, things like headers are not known by seeing the semantic markup."
+        },
+        {
+            "chunk_id": 8,
+            "title": "26_Practice Qs",
+            "start": 87.92,
+            "end": 102.92,
+            "text": "Now, things like headers are not known by seeing the semantic markup. But all the information has come into the header. Similarly, I want to put the information for education in a separate section for this information. For skills, for hobbies, for different sections."
+        },
+        {
+            "chunk_id": 9,
+            "title": "26_Practice Qs",
+            "start": 99.92,
+            "end": 113.92,
+            "text": "For skills, for hobbies, for different sections. And I want to put this information in my footer. So, what I will do is I will make a separate section for education. With the help of section tag."
+        },
+        {
+            "chunk_id": 10,
+            "title": "26_Practice Qs",
+            "start": 111.92,
+            "end": 122.92,
+            "text": "With the help of section tag. Let's take this. Section tag has come here. And this part will go inside like nested hooker."
+        },
+        {
+            "chunk_id": 11,
+            "title": "26_Practice Qs",
+            "start": 117.92,
+            "end": 138.92000000000002,
+            "text": "And this part will go inside like nested hooker. So, let's save it. Another section tag will come into my skills here. Let's save it."
+        },
+        {
+            "chunk_id": 12,
+            "title": "26_Practice Qs",
+            "start": 136.92000000000002,
+            "end": 166.92,
+            "text": "Let's save it. Another section tag will come here for hobbies. And lastly, the contact information we are going to add in the footer. So, this is the footer and all this information."
+        },
+        {
+            "chunk_id": 13,
+            "title": "26_Practice Qs",
+            "start": 162.92,
+            "end": 177.92,
+            "text": "So, this is the footer and all this information. Let's refresh it once. And all the things are still visible. But internally, it has changed."
+        },
+        {
+            "chunk_id": 14,
+            "title": "26_Practice Qs",
+            "start": 175.92,
+            "end": 182.92,
+            "text": "But internally, it has changed. This is my header. This is my section. This is my second section."
+        },
+        {
+            "chunk_id": 15,
+            "title": "26_Practice Qs",
+            "start": 180.92,
+            "end": 191.92,
+            "text": "This is my second section. This is my third section. And this is the footer for my website. In the footer, I am going to add one more line in the last section."
+        },
+        {
+            "chunk_id": 16,
+            "title": "26_Practice Qs",
+            "start": 187.92,
+            "end": 203.92,
+            "text": "In the footer, I am going to add one more line in the last section. Which is, I am going to write this in the H4 tag. Or let's take H3. Made with, let's write here,"
+        },
+        {
+            "chunk_id": 17,
+            "title": "26_Practice Qs",
+            "start": 199.92,
+            "end": 214.92,
+            "text": "Made with, let's write here, Hearts, Love, by Me. Let's take this, save and refresh. So, in the end, this line has been displayed."
+        },
+        {
+            "chunk_id": 18,
+            "title": "26_Practice Qs",
+            "start": 211.92,
+            "end": 221.92,
+            "text": "So, in the end, this line has been displayed. So, usually, in this kind of line, when I was small, I was small, I was in the first year. I used to learn new developments."
+        },
+        {
+            "chunk_id": 19,
+            "title": "26_Practice Qs",
+            "start": 219.92,
+            "end": 227.92,
+            "text": "I used to learn new developments. So, I used to like it a lot. At last, people usually write in portfolios. Made with Love, by Me."
+        },
+        {
+            "chunk_id": 20,
+            "title": "26_Practice Qs",
+            "start": 225.92,
+            "end": 233.92,
+            "text": "Made with Love, by Me. Or Made with Love, by Amazon. Made with Love, by Google. Made with Love, by Microsoft."
+        },
+        {
+            "chunk_id": 21,
+            "title": "26_Practice Qs",
+            "start": 231.92,
+            "end": 239.92,
+            "text": "Made with Love, by Microsoft. So, this webpage is made with Love, by Me. So, I wrote Me. You can write your name according to your own."
+        },
+        {
+            "chunk_id": 22,
+            "title": "26_Practice Qs",
+            "start": 237.92,
+            "end": 247.92,
+            "text": "You can write your name according to your own. By the way, it is written on the name. So, I have added this different semantic markup on my portfolios."
+        }
+    ],
+    "full_text": "Now let's move on to the practical question number 6. The task I have given is to add a semantic markup to your portfolio page. That is, we have to add a semantic markup to the portfolio page we are building. Which tags can you add to it? It is completely up to us because there are multiple tags that exist. Obviously, the paragraph tags or heading tags that we have already used are already our semantic tags that have been implemented. Apart from this, I have a header tag that we can use. And we have a footer that we can make. Along with that, we have made a section for skills and education. We can use a section tag for these sections. We will use a footer tag, a header tag and a section tag because all these are related content in the skills. All these are related content in education. So, let's use these three semantic tags with our portfolio page. I have my portfolio page. I can open it if I want. This is how I am showing my page right now. I want the top part of the page to be the header of the website. So, what I will do is I will put it in my header. So, all this content will come into my header. Let's save it. And this has now become my header. Now, things like headers are not known by seeing the semantic markup. But all the information has come into the header. Similarly, I want to put the information for education in a separate section for this information. For skills, for hobbies, for different sections. And I want to put this information in my footer. So, what I will do is I will make a separate section for education. With the help of section tag. Let's take this. Section tag has come here. And this part will go inside like nested hooker. So, let's save it. Another section tag will come into my skills here. Let's save it. Another section tag will come here for hobbies. And lastly, the contact information we are going to add in the footer. So, this is the footer and all this information. Let's refresh it once. And all the things are still visible. But internally, it has changed. This is my header. This is my section. This is my second section. This is my third section. And this is the footer for my website. In the footer, I am going to add one more line in the last section. Which is, I am going to write this in the H4 tag. Or let's take H3. Made with, let's write here, Hearts, Love, by Me. Let's take this, save and refresh. So, in the end, this line has been displayed. So, usually, in this kind of line, when I was small, I was small, I was in the first year. I used to learn new developments. So, I used to like it a lot. At last, people usually write in portfolios. Made with Love, by Me. Or Made with Love, by Amazon. Made with Love, by Google. Made with Love, by Microsoft. So, this webpage is made with Love, by Me. So, I wrote Me. You can write your name according to your own. By the way, it is written on the name. So, I have added this different semantic markup on my portfolios."
+}

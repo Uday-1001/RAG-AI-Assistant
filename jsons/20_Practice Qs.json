@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "20_Practice Qs",
+            "start": 0.0,
+            "end": 18.080000000000002,
+            "text": "Next, we are going to solve our practice question number 4. In the question, we are saying, print the following on the screen using H1 heading elements. That is, I have to print the entire line on my screen in the form of an H1 heading element. That is, the entire thing will come into an H1 heading tag and print it in that way."
+        },
+        {
+            "chunk_id": 2,
+            "title": "20_Practice Qs",
+            "start": 13.68,
+            "end": 26.919999999999998,
+            "text": "That is, the entire thing will come into an H1 heading tag and print it in that way. First of all, let's talk about our first line. In the first line, Pythagoras theorem says, if this is proper English, then I don't have to do much in it. I have to copy and paste it directly."
+        },
+        {
+            "chunk_id": 3,
+            "title": "20_Practice Qs",
+            "start": 25.759999999999998,
+            "end": 37.92,
+            "text": "I have to copy and paste it directly. But I can see that the subscript is being used in the formula. So, I am going to use the SUP tag here. To write this line, we are going to make an H1 element in our HTML code."
+        },
+        {
+            "chunk_id": 4,
+            "title": "20_Practice Qs",
+            "start": 33.32,
+            "end": 48.760000000000005,
+            "text": "To write this line, we are going to make an H1 element in our HTML code. The heading element in which I am going to write Pythagoras theorem says, Let's write A here. Now, after A, I want a square, so for the superscript element, I write SUP tag in which I will write 2."
+        },
+        {
+            "chunk_id": 5,
+            "title": "20_Practice Qs",
+            "start": 43.239999999999995,
+            "end": 60.92,
+            "text": "Now, after A, I want a square, so for the superscript element, I write SUP tag in which I will write 2. After that, I will write a plus sign of B and SUP tag again. So, let's do this again. Save and now run."
+        },
+        {
+            "chunk_id": 6,
+            "title": "20_Practice Qs",
+            "start": 59.28,
+            "end": 71.88,
+            "text": "Save and now run. So, Pythagoras theorem says, we have the entire line as it is printed. Now, let's talk about the second line. In the second line, this is my second line."
+        },
+        {
+            "chunk_id": 7,
+            "title": "20_Practice Qs",
+            "start": 68.8,
+            "end": 84.48,
+            "text": "In the second line, this is my second line. This is such a proper English, so I don't have to change anything in it. This is my chemical formula in which I have 6, 12 and 6. I can see that it is going to come into my subscript, so I am going to use SUP tag for it."
+        },
+        {
+            "chunk_id": 8,
+            "title": "20_Practice Qs",
+            "start": 79.6,
+            "end": 89.80000000000001,
+            "text": "I can see that it is going to come into my subscript, so I am going to use SUP tag for it. Let's write this in the code once. I will make my heading element. It will be written in it."
+        },
+        {
+            "chunk_id": 9,
+            "title": "20_Practice Qs",
+            "start": 88.4,
+            "end": 98.2,
+            "text": "It will be written in it. Formula for glucose is C. Here, we will write SUB6H. Here, we are going to write 12, 4, 6."
+        },
+        {
+            "chunk_id": 10,
+            "title": "20_Practice Qs",
+            "start": 95.52000000000001,
+            "end": 108.56,
+            "text": "Here, we are going to write 12, 4, 6. Let's do this. Save and now run. So, I have the second line as it is printed. Now, we understand that the formula of math or science is written on the websites."
+        },
+        {
+            "chunk_id": 11,
+            "title": "20_Practice Qs",
+            "start": 102.80000000000001,
+            "end": 112.84,
+            "text": "Now, we understand that the formula of math or science is written on the websites. How can we present it in the form of HTML on a web page?"
+        }
+    ],
+    "full_text": "Next, we are going to solve our practice question number 4. In the question, we are saying, print the following on the screen using H1 heading elements. That is, I have to print the entire line on my screen in the form of an H1 heading element. That is, the entire thing will come into an H1 heading tag and print it in that way. First of all, let's talk about our first line. In the first line, Pythagoras theorem says, if this is proper English, then I don't have to do much in it. I have to copy and paste it directly. But I can see that the subscript is being used in the formula. So, I am going to use the SUP tag here. To write this line, we are going to make an H1 element in our HTML code. The heading element in which I am going to write Pythagoras theorem says, Let's write A here. Now, after A, I want a square, so for the superscript element, I write SUP tag in which I will write 2. After that, I will write a plus sign of B and SUP tag again. So, let's do this again. Save and now run. So, Pythagoras theorem says, we have the entire line as it is printed. Now, let's talk about the second line. In the second line, this is my second line. This is such a proper English, so I don't have to change anything in it. This is my chemical formula in which I have 6, 12 and 6. I can see that it is going to come into my subscript, so I am going to use SUP tag for it. Let's write this in the code once. I will make my heading element. It will be written in it. Formula for glucose is C. Here, we will write SUB6H. Here, we are going to write 12, 4, 6. Let's do this. Save and now run. So, I have the second line as it is printed. Now, we understand that the formula of math or science is written on the websites. How can we present it in the form of HTML on a web page?"
+}

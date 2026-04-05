@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "2_% in Animation",
+            "start": 0.0,
+            "end": 12.700000000000001,
+            "text": "Apart from this, there is a small percentage in the animation. So far, what we have written from and to, From means start, that is 0%. And to means end, that is 100%."
+        },
+        {
+            "chunk_id": 2,
+            "title": "2_% in Animation",
+            "start": 10.040000000000001,
+            "end": 22.740000000000002,
+            "text": "And to means end, that is 100%. If we want my animation to work in stages, What are we doing now? Directly taking from 0% to 100% of the animation,"
+        },
+        {
+            "chunk_id": 3,
+            "title": "2_% in Animation",
+            "start": 16.84,
+            "end": 33.4,
+            "text": "Directly taking from 0% to 100% of the animation, But if this is our stage A and this is our stage B, There is a stage C in between them. If this is the state on 0% and this is the state on 100%,"
+        },
+        {
+            "chunk_id": 4,
+            "title": "2_% in Animation",
+            "start": 29.2,
+            "end": 46.2,
+            "text": "If this is the state on 0% and this is the state on 100%, Then there should be some extra state in the middle of 50% in which the properties are different. So for that, we can use percentages instead of from and to. If we want something on 0%, something on 50%, then something on 100%."
+        },
+        {
+            "chunk_id": 5,
+            "title": "2_% in Animation",
+            "start": 42.1,
+            "end": 55.7,
+            "text": "If we want something on 0%, something on 50%, then something on 100%. So to apply this, We write in this way that on 0%, For now, let's manipulate it with color."
+        },
+        {
+            "chunk_id": 6,
+            "title": "2_% in Animation",
+            "start": 51.2,
+            "end": 65.2,
+            "text": "For now, let's manipulate it with color. On 0%, we want the background color to be green. Instead of the width animate, Let's give color, C-O-L,"
+        },
+        {
+            "chunk_id": 7,
+            "title": "2_% in Animation",
+            "start": 63.2,
+            "end": 75.2,
+            "text": "Let's give color, C-O-L, Animate name. And we want our color on 50% to be yellow. And after that, on 100%,"
+        },
+        {
+            "chunk_id": 8,
+            "title": "2_% in Animation",
+            "start": 72.2,
+            "end": 83.2,
+            "text": "And after that, on 100%, Our color should be blue. Let's do this, save, refresh. So what will happen now? First, the color is green, then it will be yellow, then it will be blue."
+        },
+        {
+            "chunk_id": 9,
+            "title": "2_% in Animation",
+            "start": 80.2,
+            "end": 92.36,
+            "text": "So what will happen now? First, the color is green, then it will be yellow, then it will be blue. So the transition will be applied in 3 stages. If we want, we can add one more stage here, That our color should be red from 80%."
+        },
+        {
+            "chunk_id": 10,
+            "title": "2_% in Animation",
+            "start": 89.36,
+            "end": 100.36,
+            "text": "That our color should be red from 80%. If we want to play this in 4 seconds, Save, refresh. First green, then yellow, then red, then blue."
+        },
+        {
+            "chunk_id": 11,
+            "title": "2_% in Animation",
+            "start": 97.36,
+            "end": 108.36,
+            "text": "First green, then yellow, then red, then blue. So in this way, my animation will play in 4 stages. For my animation, we can decide different stages with the help of first intage."
+        }
+    ],
+    "full_text": "Apart from this, there is a small percentage in the animation. So far, what we have written from and to, From means start, that is 0%. And to means end, that is 100%. If we want my animation to work in stages, What are we doing now? Directly taking from 0% to 100% of the animation, But if this is our stage A and this is our stage B, There is a stage C in between them. If this is the state on 0% and this is the state on 100%, Then there should be some extra state in the middle of 50% in which the properties are different. So for that, we can use percentages instead of from and to. If we want something on 0%, something on 50%, then something on 100%. So to apply this, We write in this way that on 0%, For now, let's manipulate it with color. On 0%, we want the background color to be green. Instead of the width animate, Let's give color, C-O-L, Animate name. And we want our color on 50% to be yellow. And after that, on 100%, Our color should be blue. Let's do this, save, refresh. So what will happen now? First, the color is green, then it will be yellow, then it will be blue. So the transition will be applied in 3 stages. If we want, we can add one more stage here, That our color should be red from 80%. If we want to play this in 4 seconds, Save, refresh. First green, then yellow, then red, then blue. So in this way, my animation will play in 4 stages. For my animation, we can decide different stages with the help of first intage."
+}

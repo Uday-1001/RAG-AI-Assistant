@@ -1,0 +1,222 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "6_Div Element",
+            "start": 0.0,
+            "end": 20.88,
+            "text": "Next element is called div element. The official name of the div element is called content division element. The basic function of this element is to divide the content. There is no functionality in this element like the paragraph element is created."
+        },
+        {
+            "chunk_id": 2,
+            "title": "6_Div Element",
+            "start": 14.64,
+            "end": 31.48,
+            "text": "There is no functionality in this element like the paragraph element is created. Image element is created. The work of our anchor tag is to display a hyperlink. But our div element is not its own functionality."
+        },
+        {
+            "chunk_id": 3,
+            "title": "6_Div Element",
+            "start": 26.76,
+            "end": 42.96,
+            "text": "But our div element is not its own functionality. It is a container element for the rest of the elements. DIM is a container that is used to make a group of the rest of the HTML elements. So that if we want to group different elements,"
+        },
+        {
+            "chunk_id": 4,
+            "title": "6_Div Element",
+            "start": 39.760000000000005,
+            "end": 53.72,
+            "text": "So that if we want to group different elements, we can write them in a div element and group them. And we have a block level element. To understand the div element, we are going to write a small HTML code."
+        },
+        {
+            "chunk_id": 5,
+            "title": "6_Div Element",
+            "start": 50.04,
+            "end": 64.52,
+            "text": "To understand the div element, we are going to write a small HTML code. I have removed my old code in my classroom.html file. And I am going to create some anchor tags. I have written anchor."
+        },
+        {
+            "chunk_id": 6,
+            "title": "6_Div Element",
+            "start": 62.519999999999996,
+            "end": 80.0,
+            "text": "I have written anchor. I am going to write google.com. In the same way, I am going to write youtube.com. In the next line, I am going to write facebook."
+        },
+        {
+            "chunk_id": 7,
+            "title": "6_Div Element",
+            "start": 76.52,
+            "end": 87.47999999999999,
+            "text": "In the next line, I am going to write facebook. And I am going to write facebook. I have created three different anchor tags. Let's refresh our page."
+        },
+        {
+            "chunk_id": 8,
+            "title": "6_Div Element",
+            "start": 85.47999999999999,
+            "end": 98.12,
+            "text": "Let's refresh our page. These three anchor tags are displayed in a single line. Because we have already talked about an inline element for my anchor tag. Now I want these elements of google and youtube,"
+        },
+        {
+            "chunk_id": 9,
+            "title": "6_Div Element",
+            "start": 94.47999999999999,
+            "end": 112.08,
+            "text": "Now I want these elements of google and youtube, which means they should come on the same line and go on the next line. And I want the background color of the line that is coming on the google and youtube. For such cases, when I have to do such things,"
+        },
+        {
+            "chunk_id": 10,
+            "title": "6_Div Element",
+            "start": 108.80000000000001,
+            "end": 119.4,
+            "text": "For such cases, when I have to do such things, I am going to create a div element outside. I have created a div element. This is the opening tag. This is my closing tag."
+        },
+        {
+            "chunk_id": 11,
+            "title": "6_Div Element",
+            "start": 116.44,
+            "end": 130.84,
+            "text": "This is the opening tag. This is my closing tag. And I am going to transfer my anchor tags in this div element. So in a way, I have created an anchor tag in the div element. I have created an anchor element."
+        },
+        {
+            "chunk_id": 12,
+            "title": "6_Div Element",
+            "start": 129.44,
+            "end": 138.4,
+            "text": "I have created an anchor element. And now I am going to save it and refresh it. So what happened in this way? Because div is a block level element."
+        },
+        {
+            "chunk_id": 13,
+            "title": "6_Div Element",
+            "start": 134.68,
+            "end": 149.88,
+            "text": "Because div is a block level element. So all the items in one div will occupy this entire line. That is, google and youtube tags will occupy the entire line. And the things after the div, like the element of facebook,"
+        },
+        {
+            "chunk_id": 14,
+            "title": "6_Div Element",
+            "start": 146.4,
+            "end": 156.88,
+            "text": "And the things after the div, like the element of facebook, will come on the next line. To verify this, we can inspect that here this is my entire div."
+        },
+        {
+            "chunk_id": 15,
+            "title": "6_Div Element",
+            "start": 154.84,
+            "end": 163.48,
+            "text": "here this is my entire div. I have this anchor tag inside the div. And in the next line, I have only an anchor tag. So what did this div do?"
+        },
+        {
+            "chunk_id": 16,
+            "title": "6_Div Element",
+            "start": 162.44,
+            "end": 171.2,
+            "text": "So what did this div do? It occupied the entire line, which has the tags of google and youtube. Now I want to change the background color of the whole div."
+        },
+        {
+            "chunk_id": 17,
+            "title": "6_Div Element",
+            "start": 167.72,
+            "end": 179.6,
+            "text": "Now I want to change the background color of the whole div. I am going to click on this element. And here I will write background color equals red. I have entered and as soon as I entered,"
+        },
+        {
+            "chunk_id": 18,
+            "title": "6_Div Element",
+            "start": 177.2,
+            "end": 186.32,
+            "text": "I have entered and as soon as I entered, what happened to me? This background color of this div is red. There is no background color in the next element."
+        },
+        {
+            "chunk_id": 19,
+            "title": "6_Div Element",
+            "start": 183.12,
+            "end": 191.44,
+            "text": "There is no background color in the next element. The way to change this background color is basically inside the inspect, I can add some of my CSS,"
+        },
+        {
+            "chunk_id": 20,
+            "title": "6_Div Element",
+            "start": 190.2,
+            "end": 198.16,
+            "text": "I can add some of my CSS, that is, I can add properties of style on the page. But this property is not permanent. I mean, as soon as I refresh this page, it will disappear."
+        },
+        {
+            "chunk_id": 21,
+            "title": "6_Div Element",
+            "start": 195.51999999999998,
+            "end": 205.35999999999999,
+            "text": "I mean, as soon as I refresh this page, it will disappear. And again, I will have to write the same line for this element. So background color. Let's green this time."
+        },
+        {
+            "chunk_id": 22,
+            "title": "6_Div Element",
+            "start": 203.79999999999998,
+            "end": 213.0,
+            "text": "Let's green this time. So in this way, my background color will be green for the whole div. In this way, we usually don't define our CSS. It is defined within the CSS file."
+        },
+        {
+            "chunk_id": 23,
+            "title": "6_Div Element",
+            "start": 210.95999999999998,
+            "end": 222.64000000000001,
+            "text": "It is defined within the CSS file. But because I want to show you an example of the div, so if I have a task in which I have to group some elements, take them on a separate line and change the background color for them,"
+        },
+        {
+            "chunk_id": 24,
+            "title": "6_Div Element",
+            "start": 219.28,
+            "end": 232.48000000000002,
+            "text": "take them on a separate line and change the background color for them, then I can use div element to group them there. And with the help of div element, they will also be grouped. And along with that, they will also go in a different line."
+        },
+        {
+            "chunk_id": 25,
+            "title": "6_Div Element",
+            "start": 229.8,
+            "end": 238.8,
+            "text": "And along with that, they will also go in a different line. But the main work of div or the special properties, we will not be able to understand them much now. When we are doing CSS,"
+        },
+        {
+            "chunk_id": 26,
+            "title": "6_Div Element",
+            "start": 237.28,
+            "end": 248.32,
+            "text": "When we are doing CSS, then we will use div more and understand its properties more. But the basic div is that div is a block-level element. So we will write all the tags within the div."
+        },
+        {
+            "chunk_id": 27,
+            "title": "6_Div Element",
+            "start": 246.11999999999998,
+            "end": 258.52,
+            "text": "So we will write all the tags within the div. They will occupy all of our lines, block, and block. And we use div to group elements of the second thing. We use it to make a group."
+        },
+        {
+            "chunk_id": 28,
+            "title": "6_Div Element",
+            "start": 256.4,
+            "end": 271.91999999999996,
+            "text": "We use it to make a group. And div is a frequently used element that it will appear on every website. For example, if I go to google.com and inspect google.com here, then I will get to know that this is a div for me."
+        },
+        {
+            "chunk_id": 29,
+            "title": "6_Div Element",
+            "start": 268.2,
+            "end": 276.52000000000004,
+            "text": "then I will get to know that this is a div for me. So here I can see a div. Here I have this div. Here this is a div."
+        },
+        {
+            "chunk_id": 30,
+            "title": "6_Div Element",
+            "start": 275.08000000000004,
+            "end": 285.76,
+            "text": "Here this is a div. Here this is a div. My website is mostly a collection of divs. Because after one point, when we start building complex websites and web pages,"
+        },
+        {
+            "chunk_id": 31,
+            "title": "6_Div Element",
+            "start": 281.52000000000004,
+            "end": 296.48,
+            "text": "Because after one point, when we start building complex websites and web pages, then we need to group a lot of elements in it. So when we are designing and creating normal websites and web pages, then we will use div a lot."
+        }
+    ],
+    "full_text": "Next element is called div element. The official name of the div element is called content division element. The basic function of this element is to divide the content. There is no functionality in this element like the paragraph element is created. Image element is created. The work of our anchor tag is to display a hyperlink. But our div element is not its own functionality. It is a container element for the rest of the elements. DIM is a container that is used to make a group of the rest of the HTML elements. So that if we want to group different elements, we can write them in a div element and group them. And we have a block level element. To understand the div element, we are going to write a small HTML code. I have removed my old code in my classroom.html file. And I am going to create some anchor tags. I have written anchor. I am going to write google.com. In the same way, I am going to write youtube.com. In the next line, I am going to write facebook. And I am going to write facebook. I have created three different anchor tags. Let's refresh our page. These three anchor tags are displayed in a single line. Because we have already talked about an inline element for my anchor tag. Now I want these elements of google and youtube, which means they should come on the same line and go on the next line. And I want the background color of the line that is coming on the google and youtube. For such cases, when I have to do such things, I am going to create a div element outside. I have created a div element. This is the opening tag. This is my closing tag. And I am going to transfer my anchor tags in this div element. So in a way, I have created an anchor tag in the div element. I have created an anchor element. And now I am going to save it and refresh it. So what happened in this way? Because div is a block level element. So all the items in one div will occupy this entire line. That is, google and youtube tags will occupy the entire line. And the things after the div, like the element of facebook, will come on the next line. To verify this, we can inspect that here this is my entire div. I have this anchor tag inside the div. And in the next line, I have only an anchor tag. So what did this div do? It occupied the entire line, which has the tags of google and youtube. Now I want to change the background color of the whole div. I am going to click on this element. And here I will write background color equals red. I have entered and as soon as I entered, what happened to me? This background color of this div is red. There is no background color in the next element. The way to change this background color is basically inside the inspect, I can add some of my CSS, that is, I can add properties of style on the page. But this property is not permanent. I mean, as soon as I refresh this page, it will disappear. And again, I will have to write the same line for this element. So background color. Let's green this time. So in this way, my background color will be green for the whole div. In this way, we usually don't define our CSS. It is defined within the CSS file. But because I want to show you an example of the div, so if I have a task in which I have to group some elements, take them on a separate line and change the background color for them, then I can use div element to group them there. And with the help of div element, they will also be grouped. And along with that, they will also go in a different line. But the main work of div or the special properties, we will not be able to understand them much now. When we are doing CSS, then we will use div more and understand its properties more. But the basic div is that div is a block-level element. So we will write all the tags within the div. They will occupy all of our lines, block, and block. And we use div to group elements of the second thing. We use it to make a group. And div is a frequently used element that it will appear on every website. For example, if I go to google.com and inspect google.com here, then I will get to know that this is a div for me. So here I can see a div. Here I have this div. Here this is a div. Here this is a div. My website is mostly a collection of divs. Because after one point, when we start building complex websites and web pages, then we need to group a lot of elements in it. So when we are designing and creating normal websites and web pages, then we will use div a lot."
+}

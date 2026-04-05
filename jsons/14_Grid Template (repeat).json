@@ -1,0 +1,173 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "14_Grid Template (repeat)",
+            "start": 0.0,
+            "end": 19.0,
+            "text": "Next we will talk about repeat in grid template. Whenever we want to divide the available space equally, there is another better way out of auto which is our repeat property. With the help of repeat, we write grid template rows and in rows we write repeat."
+        },
+        {
+            "chunk_id": 2,
+            "title": "14_Grid Template (repeat)",
+            "start": 13.0,
+            "end": 30.0,
+            "text": "With the help of repeat, we write grid template rows and in rows we write repeat. In repeat, we will pass two parameters. Our second parameter will be 1FR. 1FR means one fraction of 100% width."
+        },
+        {
+            "chunk_id": 3,
+            "title": "14_Grid Template (repeat)",
+            "start": 24.0,
+            "end": 44.0,
+            "text": "1FR means one fraction of 100% width. We can also call it 100% available space. So, the available space we have, it is generally the width of our whole, in terms of rows. And it is the height of our whole when we talk about columns."
+        },
+        {
+            "chunk_id": 4,
+            "title": "14_Grid Template (repeat)",
+            "start": 41.0,
+            "end": 56.0,
+            "text": "And it is the height of our whole when we talk about columns. So, the 100% width we have, we have to repeat one fraction of it. How many times we have to repeat? The number of tracks we need or the number of rows we need, we write the count here."
+        },
+        {
+            "chunk_id": 5,
+            "title": "14_Grid Template (repeat)",
+            "start": 51.0,
+            "end": 69.0,
+            "text": "The number of tracks we need or the number of rows we need, we write the count here. In the same way, the number of columns we need, we write the count here. So, the space left over from the container will be divided equally. For example, if we comment out these two,"
+        },
+        {
+            "chunk_id": 6,
+            "title": "14_Grid Template (repeat)",
+            "start": 66.0,
+            "end": 80.0,
+            "text": "For example, if we comment out these two, here we have written grid template rows. For rows, we have written repeat. And we want to create our three equal rows."
+        },
+        {
+            "chunk_id": 7,
+            "title": "14_Grid Template (repeat)",
+            "start": 76.0,
+            "end": 87.0,
+            "text": "And we want to create our three equal rows. So, we can write count 3 and 1FR. We can do this safe and refresh. So, what happened with this?"
+        },
+        {
+            "chunk_id": 8,
+            "title": "14_Grid Template (repeat)",
+            "start": 85.0,
+            "end": 93.0,
+            "text": "So, what happened with this? Three equal rows were created by us. How did they come? This is our first row, this is our second row, this is our third row."
+        },
+        {
+            "chunk_id": 9,
+            "title": "14_Grid Template (repeat)",
+            "start": 90.0,
+            "end": 103.0,
+            "text": "This is our first row, this is our second row, this is our third row. Now, here our container height, because it is not exactly fitting. So, the three above will be equal to us. The four and five below will have to sacrifice themselves."
+        },
+        {
+            "chunk_id": 10,
+            "title": "14_Grid Template (repeat)",
+            "start": 100.0,
+            "end": 116.0,
+            "text": "The four and five below will have to sacrifice themselves. If we do four of our repeats, then the space above will be equally divided and the last one will be in one space. And if we do five here, then our space will be divided into five equal parts."
+        },
+        {
+            "chunk_id": 11,
+            "title": "14_Grid Template (repeat)",
+            "start": 111.0,
+            "end": 123.0,
+            "text": "And if we do five here, then our space will be divided into five equal parts. We can do the same thing for our columns. We can write grid template columns. We will write repeat here."
+        },
+        {
+            "chunk_id": 12,
+            "title": "14_Grid Template (repeat)",
+            "start": 121.0,
+            "end": 134.0,
+            "text": "We will write repeat here. If we want three columns, then we will do safe and refresh to divide the total 1FR to 3 columns. So, what happened with this?"
+        },
+        {
+            "chunk_id": 13,
+            "title": "14_Grid Template (repeat)",
+            "start": 132.0,
+            "end": 145.0,
+            "text": "So, what happened with this? This is our first column, this is our second column, and this is our third column. So, whenever we look at things in the grid, we divide them in rows, we didn't divide them in columns."
+        },
+        {
+            "chunk_id": 14,
+            "title": "14_Grid Template (repeat)",
+            "start": 141.0,
+            "end": 155.0,
+            "text": "we divide them in rows, we didn't divide them in columns. We divide them in columns and we didn't divide them in rows. That is not a good way to use the grid. In the same cases, you will notice that there are many different things that are confusing."
+        },
+        {
+            "chunk_id": 15,
+            "title": "14_Grid Template (repeat)",
+            "start": 150.0,
+            "end": 166.0,
+            "text": "In the same cases, you will notice that there are many different things that are confusing. For example, if we write rows and not columns, we will do refresh. So, our space is equally divided now. But if we count four here, then in that case, the above four will be equal and the last one will be unequal."
+        },
+        {
+            "chunk_id": 16,
+            "title": "14_Grid Template (repeat)",
+            "start": 161.0,
+            "end": 176.0,
+            "text": "But if we count four here, then in that case, the above four will be equal and the last one will be unequal. So, we get many discrepancies in this way. Which, as a programmer, doesn't make our programming experience so good. That is why, whenever we want to design a 1D layout,"
+        },
+        {
+            "chunk_id": 17,
+            "title": "14_Grid Template (repeat)",
+            "start": 173.0,
+            "end": 191.0,
+            "text": "That is why, whenever we want to design a 1D layout, i.e. we only need items in rows or items in columns, in that case, we will prefer the flexbox, we will not code in the grid form. The use case of the grid will be the same when you want to design a layout in which you need rows and columns."
+        },
+        {
+            "chunk_id": 18,
+            "title": "14_Grid Template (repeat)",
+            "start": 185.0,
+            "end": 201.0,
+            "text": "The use case of the grid will be the same when you want to design a layout in which you need rows and columns. Because, it will be much easier to design a layout in that case, than to write the whole code and the whole layout. So, when we are using rows and columns, we will refresh them."
+        },
+        {
+            "chunk_id": 19,
+            "title": "14_Grid Template (repeat)",
+            "start": 198.0,
+            "end": 209.0,
+            "text": "So, when we are using rows and columns, we will refresh them. So, we will have a better experience. Now, what is happening here? Here, our first column is here, the second column is here, and the third column is here."
+        },
+        {
+            "chunk_id": 20,
+            "title": "14_Grid Template (repeat)",
+            "start": 205.0,
+            "end": 224.0,
+            "text": "Here, our first column is here, the second column is here, and the third column is here. Similarly, this first row is here, the second row is here, and the third row is here, and this is my fourth row. So, whenever we talk about the grid, the use case of the grid is only when we use rows and columns together, not individually. Now, there is another way to write the repeat in CSS."
+        },
+        {
+            "chunk_id": 21,
+            "title": "14_Grid Template (repeat)",
+            "start": 221.0,
+            "end": 241.0,
+            "text": "Now, there is another way to write the repeat in CSS. For example, we can write the same grid template rows in a different way. We can write grid template rows, and after that, we can repeat one fraction four times. So, I have written 1FR, 1FR, 1FR and 1FR."
+        },
+        {
+            "chunk_id": 22,
+            "title": "14_Grid Template (repeat)",
+            "start": 237.0,
+            "end": 255.0,
+            "text": "So, I have written 1FR, 1FR, 1FR and 1FR. So, writing these four is the same as we have written this thing. So, we can prefer any syntax from both of them, save it, refresh it, nothing has changed in the grid. So, basically, what we use to write the repeat, we pass the count in it, we write 1FR."
+        },
+        {
+            "chunk_id": 23,
+            "title": "14_Grid Template (repeat)",
+            "start": 250.0,
+            "end": 276.0,
+            "text": "So, basically, what we use to write the repeat, we pass the count in it, we write 1FR. The second way to write the same thing is that we write 1FR in our value by repeating it that much. So, what have we studied so far? We have learnt to make a grid for any container. So, what we make a grid is the inner elements of the container, the inner items, they will become all the grid items and we will place them in the form of rows and columns."
+        },
+        {
+            "chunk_id": 24,
+            "title": "14_Grid Template (repeat)",
+            "start": 267.0,
+            "end": 291.0,
+            "text": "So, what we make a grid is the inner elements of the container, the inner items, they will become all the grid items and we will place them in the form of rows and columns. After that, we can set the rows for the grid, the number of rows and the number of columns. We call them as grid track, and with the help of grid track, we can also see where our grid lines are, where the row lines are performing and where the column lines are performing."
+        }
+    ],
+    "full_text": "Next we will talk about repeat in grid template. Whenever we want to divide the available space equally, there is another better way out of auto which is our repeat property. With the help of repeat, we write grid template rows and in rows we write repeat. In repeat, we will pass two parameters. Our second parameter will be 1FR. 1FR means one fraction of 100% width. We can also call it 100% available space. So, the available space we have, it is generally the width of our whole, in terms of rows. And it is the height of our whole when we talk about columns. So, the 100% width we have, we have to repeat one fraction of it. How many times we have to repeat? The number of tracks we need or the number of rows we need, we write the count here. In the same way, the number of columns we need, we write the count here. So, the space left over from the container will be divided equally. For example, if we comment out these two, here we have written grid template rows. For rows, we have written repeat. And we want to create our three equal rows. So, we can write count 3 and 1FR. We can do this safe and refresh. So, what happened with this? Three equal rows were created by us. How did they come? This is our first row, this is our second row, this is our third row. Now, here our container height, because it is not exactly fitting. So, the three above will be equal to us. The four and five below will have to sacrifice themselves. If we do four of our repeats, then the space above will be equally divided and the last one will be in one space. And if we do five here, then our space will be divided into five equal parts. We can do the same thing for our columns. We can write grid template columns. We will write repeat here. If we want three columns, then we will do safe and refresh to divide the total 1FR to 3 columns. So, what happened with this? This is our first column, this is our second column, and this is our third column. So, whenever we look at things in the grid, we divide them in rows, we didn't divide them in columns. We divide them in columns and we didn't divide them in rows. That is not a good way to use the grid. In the same cases, you will notice that there are many different things that are confusing. For example, if we write rows and not columns, we will do refresh. So, our space is equally divided now. But if we count four here, then in that case, the above four will be equal and the last one will be unequal. So, we get many discrepancies in this way. Which, as a programmer, doesn't make our programming experience so good. That is why, whenever we want to design a 1D layout, i.e. we only need items in rows or items in columns, in that case, we will prefer the flexbox, we will not code in the grid form. The use case of the grid will be the same when you want to design a layout in which you need rows and columns. Because, it will be much easier to design a layout in that case, than to write the whole code and the whole layout. So, when we are using rows and columns, we will refresh them. So, we will have a better experience. Now, what is happening here? Here, our first column is here, the second column is here, and the third column is here. Similarly, this first row is here, the second row is here, and the third row is here, and this is my fourth row. So, whenever we talk about the grid, the use case of the grid is only when we use rows and columns together, not individually. Now, there is another way to write the repeat in CSS. For example, we can write the same grid template rows in a different way. We can write grid template rows, and after that, we can repeat one fraction four times. So, I have written 1FR, 1FR, 1FR and 1FR. So, writing these four is the same as we have written this thing. So, we can prefer any syntax from both of them, save it, refresh it, nothing has changed in the grid. So, basically, what we use to write the repeat, we pass the count in it, we write 1FR. The second way to write the same thing is that we write 1FR in our value by repeating it that much. So, what have we studied so far? We have learnt to make a grid for any container. So, what we make a grid is the inner elements of the container, the inner items, they will become all the grid items and we will place them in the form of rows and columns. After that, we can set the rows for the grid, the number of rows and the number of columns. We call them as grid track, and with the help of grid track, we can also see where our grid lines are, where the row lines are performing and where the column lines are performing."
+}

@@ -1,0 +1,61 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "0_Animation Shorthand",
+            "start": 0.0,
+            "end": 19.0,
+            "text": "Now as we have written different properties of animation, there is a single shorthand to write them all means we can write all the properties in a single line we simply write animation and after that we can start writing each of our properties For example, to write all these properties, we can simply write animation"
+        },
+        {
+            "chunk_id": 2,
+            "title": "0_Animation Shorthand",
+            "start": 14.0,
+            "end": 40.0,
+            "text": "For example, to write all these properties, we can simply write animation first of all we want to apply the width animate, after that we need duration, 3 second duration, timing function we want these to be ease in, how many delay we want, what should be the count of infinite and what direction we should have so we have to write all these properties and it is equal to writing this property in animation"
+        },
+        {
+            "chunk_id": 3,
+            "title": "0_Animation Shorthand",
+            "start": 35.0,
+            "end": 61.0,
+            "text": "so we have to write all these properties and it is equal to writing this property in animation let's comment this out, so if we refresh after saving, then what we will do here is we will have to write this 0 second to show that there are many properties, so here we will have to write 0 seconds for that, we will have to write S explicitly so now we will have to apply the entire animation property in a single line"
+        },
+        {
+            "chunk_id": 4,
+            "title": "0_Animation Shorthand",
+            "start": 56.0,
+            "end": 75.0,
+            "text": "so now we will have to apply the entire animation property in a single line so whenever we want to apply animations, one we have to create a template and the other we have to implement that template in any element with the help of a single line and now if we want to change multiple properties in a single element in animation"
+        },
+        {
+            "chunk_id": 5,
+            "title": "0_Animation Shorthand",
+            "start": 70.0,
+            "end": 87.0,
+            "text": "and now if we want to change multiple properties in a single element in animation so let's suppose if we want to change the color of the width along with the width so what we can do is by taking this color property, we want the color to be green in the beginning and then in animation, the color will be blue"
+        },
+        {
+            "chunk_id": 6,
+            "title": "0_Animation Shorthand",
+            "start": 84.0,
+            "end": 106.0,
+            "text": "and then in animation, the color will be blue so for that we can simply write, from the state, the width is background color, to the state of 2, the width is background color we want the font size, the color of the foreground or many more different properties which we can set in a single bar, we will save refresh, so this time the width is also changing, so my color is also changing"
+        },
+        {
+            "chunk_id": 7,
+            "title": "0_Animation Shorthand",
+            "start": 101.0,
+            "end": 132.0,
+            "text": "in a single bar, we will save refresh, so this time the width is also changing, so my color is also changing we can also make it rounded, that is, until my final box is created, for that, my border radius will be, let's suppose, 15 pixels save, refresh, so slowly what will happen, the radius of the border will increase, so my curved border will come if we instead of running infinitely here, I have to run only 2 times, we will save and refresh"
+        },
+        {
+            "chunk_id": 8,
+            "title": "0_Animation Shorthand",
+            "start": 124.0,
+            "end": 150.0,
+            "text": "if we instead of running infinitely here, I have to run only 2 times, we will save and refresh so this first time my property will be applied, in which 3 values are changing and this will be applied in the second time if we apply 2 times, which 3 values will change, my width, my background color and finally, my border radius is also added in the final position so in this way, we can use animation comb to create many beautiful transitions on the elements"
+        }
+    ],
+    "full_text": "Now as we have written different properties of animation, there is a single shorthand to write them all means we can write all the properties in a single line we simply write animation and after that we can start writing each of our properties For example, to write all these properties, we can simply write animation first of all we want to apply the width animate, after that we need duration, 3 second duration, timing function we want these to be ease in, how many delay we want, what should be the count of infinite and what direction we should have so we have to write all these properties and it is equal to writing this property in animation let's comment this out, so if we refresh after saving, then what we will do here is we will have to write this 0 second to show that there are many properties, so here we will have to write 0 seconds for that, we will have to write S explicitly so now we will have to apply the entire animation property in a single line so whenever we want to apply animations, one we have to create a template and the other we have to implement that template in any element with the help of a single line and now if we want to change multiple properties in a single element in animation so let's suppose if we want to change the color of the width along with the width so what we can do is by taking this color property, we want the color to be green in the beginning and then in animation, the color will be blue so for that we can simply write, from the state, the width is background color, to the state of 2, the width is background color we want the font size, the color of the foreground or many more different properties which we can set in a single bar, we will save refresh, so this time the width is also changing, so my color is also changing we can also make it rounded, that is, until my final box is created, for that, my border radius will be, let's suppose, 15 pixels save, refresh, so slowly what will happen, the radius of the border will increase, so my curved border will come if we instead of running infinitely here, I have to run only 2 times, we will save and refresh so this first time my property will be applied, in which 3 values are changing and this will be applied in the second time if we apply 2 times, which 3 values will change, my width, my background color and finally, my border radius is also added in the final position so in this way, we can use animation comb to create many beautiful transitions on the elements"
+}
