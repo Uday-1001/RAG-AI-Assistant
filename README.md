@@ -70,10 +70,10 @@ RAG-AI-Assistant/
 │   ├── Retrieval.py
 │   ├── SpeechToText.py
 │   └── Video_to_mp3.py
-│
-├── sample_data/   
-│   └── jsons/
-│
+│ 
+├── jsons/
+├── audios/
+├── videos_inMP4/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -116,7 +116,7 @@ Contains the instruction prompt used by the assistant during response generation
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/RAG-AI-Assistant.git
+git clone https://github.com/Uday-1001/RAG-AI-Assistant.git
 cd RAG-AI-Assistant
 ```
 
