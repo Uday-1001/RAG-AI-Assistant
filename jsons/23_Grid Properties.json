@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "chunk_id": 1,
+            "title": "23_Grid Properties",
+            "start": 0.0,
+            "end": 18.0,
+            "text": "Next we will talk about the common properties of the grid, which we use for alignment of elements. For example, we use justify content for flex items, we use align items. Similarly, we use some properties for alignment of items. So if we want to horizontally align items, we have two properties for that."
+        },
+        {
+            "chunk_id": 2,
+            "title": "23_Grid Properties",
+            "start": 13.0,
+            "end": 36.0,
+            "text": "So if we want to horizontally align items, we have two properties for that. The first is justify items, which we can use to justify all the items of the container. For example, if we write for container, in style.css, justify items for container. And if we write for that, start, we will do save and refresh."
+        },
+        {
+            "chunk_id": 3,
+            "title": "23_Grid Properties",
+            "start": 33.0,
+            "end": 50.0,
+            "text": "And if we write for that, start, we will do save and refresh. So nothing will change over items. But one thing, if we notice, the items by default, are placed horizontally in the cell. But as soon as we have done the end, we will save and refresh."
+        },
+        {
+            "chunk_id": 4,
+            "title": "23_Grid Properties",
+            "start": 47.0,
+            "end": 65.0,
+            "text": "But as soon as we have done the end, we will save and refresh. Similarly, our cell will place our content in the end. Similarly, we can justify items, we will save and refresh. So if we talk horizontally, our items will be placed in the center of the cell."
+        },
+        {
+            "chunk_id": 5,
+            "title": "23_Grid Properties",
+            "start": 59.0,
+            "end": 78.0,
+            "text": "So if we talk horizontally, our items will be placed in the center of the cell. And this same thing, what does justify items do? It places all the items of the container horizontally. But if we want to do it for an individual item, like let's suppose we made our box number one,"
+        },
+        {
+            "chunk_id": 6,
+            "title": "23_Grid Properties",
+            "start": 72.0,
+            "end": 92.0,
+            "text": "But if we want to do it for an individual item, like let's suppose we made our box number one, If we want to place it in the end, we can write justify self. And for justify self, we will write end, save and refresh. So all the other items are placed in the center, but this is our first item, it is placed in the end."
+        },
+        {
+            "chunk_id": 7,
+            "title": "23_Grid Properties",
+            "start": 86.0,
+            "end": 105.0,
+            "text": "So all the other items are placed in the center, but this is our first item, it is placed in the end. So in this way, our justify items and justify self work. As soon as we have justify, we have align, to align our items vertically. Now what we have done is, we have placed horizontally."
+        },
+        {
+            "chunk_id": 8,
+            "title": "23_Grid Properties",
+            "start": 102.0,
+            "end": 120.0,
+            "text": "Now what we have done is, we have placed horizontally. If we want to place it in vertical direction, we can use all the items of the container for align items. So for all the items, we will write align items in the container. And for aligned items, if we have done it, start, save and refresh."
+        },
+        {
+            "chunk_id": 9,
+            "title": "23_Grid Properties",
+            "start": 116.0,
+            "end": 128.0,
+            "text": "And for aligned items, if we have done it, start, save and refresh. So what happened? All the items are placed in vertical direction by default. But if we have done it instead of start, end and refresh,"
+        },
+        {
+            "chunk_id": 10,
+            "title": "23_Grid Properties",
+            "start": 125.0,
+            "end": 138.0,
+            "text": "But if we have done it instead of start, end and refresh, So what we will do? We will place it in the end of the cell, in the vertical direction, in the end of the cell. And here, if we have done it in the center, in the vertical direction,"
+        },
+        {
+            "chunk_id": 11,
+            "title": "23_Grid Properties",
+            "start": 133.0,
+            "end": 147.0,
+            "text": "And here, if we have done it in the center, in the vertical direction, All the items will be placed in the center of the cell. To show it a little more, we will do one more time, We will save the number of rows one more time and refresh."
+        },
+        {
+            "chunk_id": 12,
+            "title": "23_Grid Properties",
+            "start": 144.0,
+            "end": 156.0,
+            "text": "We will save the number of rows one more time and refresh. So what happened? We can see that all the items are placed in the center of the individual row. Because justify items are also in the center, and align items are also in the center."
+        },
+        {
+            "chunk_id": 13,
+            "title": "23_Grid Properties",
+            "start": 152.0,
+            "end": 166.0,
+            "text": "Because justify items are also in the center, and align items are also in the center. And in the same way, in the vertical direction, if we want to change the individual property of an item, Let's suppose we want to change the individual property of one, So we can write align self."
+        },
+        {
+            "chunk_id": 14,
+            "title": "23_Grid Properties",
+            "start": 164.0,
+            "end": 174.0,
+            "text": "So we can write align self. If we write align self, start, save, refresh. So what will happen? This item is placed in the start in the vertical direction,"
+        },
+        {
+            "chunk_id": 15,
+            "title": "23_Grid Properties",
+            "start": 171.0,
+            "end": 181.0,
+            "text": "This item is placed in the start in the vertical direction, Means it is placed in the upper side. If we want to place it in the end, end, refresh, So what will happen?"
+        },
+        {
+            "chunk_id": 16,
+            "title": "23_Grid Properties",
+            "start": 180.0,
+            "end": 191.0,
+            "text": "So what will happen? It is placed in the end in the vertical direction of the cell. So justify and align works like this. And we can combine these two and use a single property."
+        },
+        {
+            "chunk_id": 17,
+            "title": "23_Grid Properties",
+            "start": 187.0,
+            "end": 201.0,
+            "text": "And we can combine these two and use a single property. Means when both the values are the same, we can use the place items. If we want a vertical and horizontal alignment, Then there are different properties for that, but we need the same alignment for both."
+        },
+        {
+            "chunk_id": 18,
+            "title": "23_Grid Properties",
+            "start": 198.0,
+            "end": 211.0,
+            "text": "Then there are different properties for that, but we need the same alignment for both. So we can use place items for all the containers and individual items. We can use place self. For example, if we want to place it in the center,"
+        },
+        {
+            "chunk_id": 19,
+            "title": "23_Grid Properties",
+            "start": 207.0,
+            "end": 220.0,
+            "text": "For example, if we want to place it in the center, Let's remove this once. If we want to place it in the center, Then we can write place items instead of justify items and align items."
+        },
+        {
+            "chunk_id": 20,
+            "title": "23_Grid Properties",
+            "start": 215.0,
+            "end": 223.0,
+            "text": "Then we can write place items instead of justify items and align items. Place items, Center, Save,"
+        },
+        {
+            "chunk_id": 21,
+            "title": "23_Grid Properties",
+            "start": 222.0,
+            "end": 230.0,
+            "text": "Save, Refresh. So all the items are placed in the center. And if we want to do it individually for an item,"
+        },
+        {
+            "chunk_id": 22,
+            "title": "23_Grid Properties",
+            "start": 227.0,
+            "end": 236.0,
+            "text": "And if we want to do it individually for an item, Let's suppose for one, we want to do place self. Place self, We want to do it in the start."
+        },
+        {
+            "chunk_id": 23,
+            "title": "23_Grid Properties",
+            "start": 235.0,
+            "end": 239.0,
+            "text": "We want to do it in the start. Save, Refresh. So what will happen?"
+        },
+        {
+            "chunk_id": 24,
+            "title": "23_Grid Properties",
+            "start": 238.0,
+            "end": 250.0,
+            "text": "So what will happen? All the rest are in the center, vertically and horizontally. But the first item in the cell is in the start, vertically and horizontally. So placing and alignment can be set like this for all the items."
+        },
+        {
+            "chunk_id": 25,
+            "title": "23_Grid Properties",
+            "start": 246.0,
+            "end": 258.0,
+            "text": "So placing and alignment can be set like this for all the items. And along with this, we have another value for the display. What we did just now? We set the display property of our container to grid."
+        },
+        {
+            "chunk_id": 26,
+            "title": "23_Grid Properties",
+            "start": 255.0,
+            "end": 268.0,
+            "text": "We set the display property of our container to grid. What is the way to set the display grid? Whatever container we have, it will act like a block item. Whether it is a block item or not."
+        },
+        {
+            "chunk_id": 27,
+            "title": "23_Grid Properties",
+            "start": 264.0,
+            "end": 276.0,
+            "text": "Whether it is a block item or not. If we have made this div container and after that, Let's suppose we have made a span, We wrote this is a span."
+        },
+        {
+            "chunk_id": 28,
+            "title": "23_Grid Properties",
+            "start": 274.0,
+            "end": 282.0,
+            "text": "We wrote this is a span. So right now, this is my block item. So this span element will be created in the next line. We will do this with refresh."
+        },
+        {
+            "chunk_id": 29,
+            "title": "23_Grid Properties",
+            "start": 281.0,
+            "end": 293.0,
+            "text": "We will do this with refresh. So it was created here and created in the next line. Whereas the space is empty here. The reason for creating here is that this container is a block item."
+        },
+        {
+            "chunk_id": 30,
+            "title": "23_Grid Properties",
+            "start": 287.0,
+            "end": 305.0,
+            "text": "The reason for creating here is that this container is a block item. But if we want to display a grid container like an inline item, For that, we can set the display property to inline grid. We can write inline grid, safe and refresh."
+        },
+        {
+            "chunk_id": 31,
+            "title": "23_Grid Properties",
+            "start": 302.0,
+            "end": 310.0,
+            "text": "We can write inline grid, safe and refresh. So what will happen now? This is a span. This span element was created after my grid."
+        },
+        {
+            "chunk_id": 32,
+            "title": "23_Grid Properties",
+            "start": 307.0,
+            "end": 319.0,
+            "text": "This span element was created after my grid. We can do the same with inline flex. So this is a special thing that we have to remember. That if we have created a grid and want to display it like an inline element,"
+        },
+        {
+            "chunk_id": 33,
+            "title": "23_Grid Properties",
+            "start": 314.0,
+            "end": 324.0,
+            "text": "That if we have created a grid and want to display it like an inline element, Instead of grid, we can set the display property to inline grid."
+        }
+    ],
+    "full_text": "Next we will talk about the common properties of the grid, which we use for alignment of elements. For example, we use justify content for flex items, we use align items. Similarly, we use some properties for alignment of items. So if we want to horizontally align items, we have two properties for that. The first is justify items, which we can use to justify all the items of the container. For example, if we write for container, in style.css, justify items for container. And if we write for that, start, we will do save and refresh. So nothing will change over items. But one thing, if we notice, the items by default, are placed horizontally in the cell. But as soon as we have done the end, we will save and refresh. Similarly, our cell will place our content in the end. Similarly, we can justify items, we will save and refresh. So if we talk horizontally, our items will be placed in the center of the cell. And this same thing, what does justify items do? It places all the items of the container horizontally. But if we want to do it for an individual item, like let's suppose we made our box number one, If we want to place it in the end, we can write justify self. And for justify self, we will write end, save and refresh. So all the other items are placed in the center, but this is our first item, it is placed in the end. So in this way, our justify items and justify self work. As soon as we have justify, we have align, to align our items vertically. Now what we have done is, we have placed horizontally. If we want to place it in vertical direction, we can use all the items of the container for align items. So for all the items, we will write align items in the container. And for aligned items, if we have done it, start, save and refresh. So what happened? All the items are placed in vertical direction by default. But if we have done it instead of start, end and refresh, So what we will do? We will place it in the end of the cell, in the vertical direction, in the end of the cell. And here, if we have done it in the center, in the vertical direction, All the items will be placed in the center of the cell. To show it a little more, we will do one more time, We will save the number of rows one more time and refresh. So what happened? We can see that all the items are placed in the center of the individual row. Because justify items are also in the center, and align items are also in the center. And in the same way, in the vertical direction, if we want to change the individual property of an item, Let's suppose we want to change the individual property of one, So we can write align self. If we write align self, start, save, refresh. So what will happen? This item is placed in the start in the vertical direction, Means it is placed in the upper side. If we want to place it in the end, end, refresh, So what will happen? It is placed in the end in the vertical direction of the cell. So justify and align works like this. And we can combine these two and use a single property. Means when both the values are the same, we can use the place items. If we want a vertical and horizontal alignment, Then there are different properties for that, but we need the same alignment for both. So we can use place items for all the containers and individual items. We can use place self. For example, if we want to place it in the center, Let's remove this once. If we want to place it in the center, Then we can write place items instead of justify items and align items. Place items, Center, Save, Refresh. So all the items are placed in the center. And if we want to do it individually for an item, Let's suppose for one, we want to do place self. Place self, We want to do it in the start. Save, Refresh. So what will happen? All the rest are in the center, vertically and horizontally. But the first item in the cell is in the start, vertically and horizontally. So placing and alignment can be set like this for all the items. And along with this, we have another value for the display. What we did just now? We set the display property of our container to grid. What is the way to set the display grid? Whatever container we have, it will act like a block item. Whether it is a block item or not. If we have made this div container and after that, Let's suppose we have made a span, We wrote this is a span. So right now, this is my block item. So this span element will be created in the next line. We will do this with refresh. So it was created here and created in the next line. Whereas the space is empty here. The reason for creating here is that this container is a block item. But if we want to display a grid container like an inline item, For that, we can set the display property to inline grid. We can write inline grid, safe and refresh. So what will happen now? This is a span. This span element was created after my grid. We can do the same with inline flex. So this is a special thing that we have to remember. That if we have created a grid and want to display it like an inline element, Instead of grid, we can set the display property to inline grid."
+}
