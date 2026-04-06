@@ -1,236 +1,231 @@
-# RAG-Based AI Teaching Assistant
+# 🧑‍🏫 RAG AI Assistant
 
-An AI-powered teaching assistant that converts lecture videos into a searchable knowledge base and answers student questions using Retrieval-Augmented Generation (RAG).
+A Retrieval-Augmented Generation (RAG) based AI Teaching Assistant that answers student questions using lecture/course content processed from video and audio resources.
+
+This project converts educational media into searchable knowledge, stores the processed content, retrieves the most relevant chunks for a user query, and generates context-aware answers.
 
 ---
 
 ## Overview
 
-Students often struggle to revisit long lecture videos just to find one concept or explanation. This project solves that problem by transforming course videos into an AI assistant that can answer questions directly from the lecture content.
+This project is built to simulate an AI-powered learning assistant for educational content.
 
-The system processes educational videos, converts them into text, stores the information in a vector database, and retrieves relevant context to generate grounded answers.
+It follows a standard RAG pipeline:
+
+1. **Video / audio input**
+2. **Speech-to-text conversion**
+3. **Text chunking and JSON storage**
+4. **Vector embedding generation**
+5. **Retrieval of relevant chunks**
+6. **Answer generation based on retrieved context**
 
 ---
 
 ## Features
 
-- Converts lecture videos into audio
-- Transcribes speech into text
-- Splits transcripts into chunks
-- Generates embeddings for semantic search
-- Stores embeddings in ChromaDB
-- Retrieves relevant transcript chunks for user queries
-- Generates answers using lecture-based context
-
----
-
-## Problem Statement
-
-Educational videos contain a lot of valuable information, but students often find it difficult to search through long lectures to locate specific concepts quickly.
-
-This project addresses that problem by building a **course-specific AI assistant** that allows users to ask questions in natural language and receive answers based on the lecture content.
-
----
-
-## How It Works
-
-The pipeline follows these steps:
-
-```text
-Lecture Videos
-      ↓
-Audio Extraction
-      ↓
-Speech-to-Text
-      ↓
-Transcript Chunking
-      ↓
-Embedding Generation
-      ↓
-ChromaDB Vector Store
-      ↓
-User Query
-      ↓
-Similarity Search
-      ↓
-Relevant Chunks
-      ↓
-LLM Response
-```
+- Converts lecture videos into usable learning content
+- Extracts/transcribes spoken content
+- Stores processed chunks in JSON format
+- Uses retrieval to fetch relevant information for a user query
+- Backend server support for answering questions
+- Frontend interface for user interaction
+- Structured pipeline for future scaling
 
 ---
 
 ## Project Structure
 
-```text
-RAG-AI-Assistant/
+```bash
+rag-based-ai-teaching-assistant/
 │
-├── scripts/
+├── Scripts/
 │   ├── Build_VectorDB.py
 │   ├── Retrieval.py
 │   ├── SpeechToText.py
 │   └── Video_to_mp3.py
-│ 
-├── jsons/
+│
 ├── audios/
+│   └── **sample_audios**
+│
+├── jsons/
+│   └── **sample_jsons files**
+│
+├── src/
+│   └── ...
+│
 ├── videos_inMP4/
+│   └── **sample_videos**
+│
 ├── .gitignore
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
 ├── requirements.txt
-└── README.md
+├── requirements_serve.txt
+├── server.py
+├── vite.config.js
 ```
 
 ---
 
-## File Description
+## Scripting Description
 
-### `Video_to_mp3.py`
-Extracts audio from lecture videos.
+### `Scripts/`
+Contains the main preprocessing and retrieval scripts.
 
-### `SpeechToText.py`
-Converts extracted audio into transcript text.
+- **`Video_to_mp3.py`**  
+  Converts video files into audio format.
 
-### `Build_VectorDB.py`
-Processes transcript chunks, generates embeddings, and stores them in ChromaDB.
+- **`SpeechToText.py`**  
+  Transcribes extracted audio into text.
 
-### `Retrieval.py`
-Accepts user queries, retrieves relevant chunks, and generates responses using the retrieved context.
+- **`Build_VectorDB.py`**  
+  Processes text chunks and builds the vector database for retrieval.
 
-### `prompt.txt`
-Contains the instruction prompt used by the assistant during response generation.
-
----
-
-## Tech Stack
-
-- **Python**
-- **ChromaDB**
-- **Ollama**
-- **Whisper / Speech-to-Text**
-- **Embedding Model**
-- **Local LLM**
+- **`Retrieval.py`**  
+  Handles retrieval of relevant chunks based on user queries.
 
 ---
 
-## Installation
+## How the System Works
 
-### 1. Clone the repository
+The project follows a Retrieval-Augmented Generation (RAG) pipeline integrated with a full-stack application.
+
+1. **Data Ingestion**  
+   Educational video/audio content is processed and converted into text.
+
+2. **Preprocessing & Chunking**  
+   The extracted text is cleaned and divided into smaller chunks, which are stored in structured JSON format.
+
+3. **Vector Embedding & Storage**  
+   Text chunks are converted into embeddings and stored in a vector database for efficient semantic search.
+
+4. **User Query (Frontend)**  
+   The user interacts through the frontend interface and submits a question.
+
+5. **Retrieval (Backend)**  
+   The backend retrieves the most relevant chunks from the vector database based on the query.
+
+6. **Response Generation**  
+   The system generates a context-aware answer using only the retrieved information.
+
+7. **Response Display**  
+   The generated answer is sent back to the frontend and displayed to the user.
+
+---
+
+## Installation & Setup
+
+## 1) Clone the repository
 
 ```bash
 git clone https://github.com/Uday-1001/RAG-AI-Assistant.git
 cd RAG-AI-Assistant
 ```
 
-### 2. Install dependencies
+---
+
+## 2) Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
+pip install -r requirements_serve.txt
 ```
 
 ---
 
-## How to Use?
-
-### Step 1: Add lecture videos
-
-Place your lecture videos inside:
-
-```text
-sample_data/videos_inMP4/
-```
-
-### Step 2: Convert videos to audio
+## 3) Install frontend dependencies
 
 ```bash
-python scripts/Video_to_mp3.py
+npm install
 ```
 
-### Step 3: Convert audio to transcript
+---
+
+## Running the Project
+
+### Start the frontend
 
 ```bash
-python scripts/SpeechToText.py
+npm run dev
 ```
 
-### Step 4: Build the vector database
+This will start the frontend development server.
+
+---
+
+### Start the backend
 
 ```bash
-python scripts/Build_VectorDB.py
+uvicorn server:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### Step 5: Ask questions using retrieval
-
-```bash
-python scripts/Retrieval.py
-```
+This will start the backend API server locally.
 
 ---
 
-## Example Questions
+## Access the Application
 
-You can ask questions like:
-
-- What is the span element?
-- What did the instructor say about vector databases?
-- Summarize the lecture topic
-- What is the difference between div and span?
+- **Frontend:** Open the local URL shown in the terminal after running `npm run dev`
+- **Backend API:** `http://127.0.0.1:8000`
 
 ---
 
-## Example Use Case
+---
 
-A student can upload lecture videos, process them into a searchable knowledge base, and ask topic-specific questions without rewatching the entire lecture.
+## Tech Stack
 
-This makes lecture content more accessible, searchable, and student-friendly.
+### Backend
+- Python
+
+### Frontend
+- HTML
+- JavaScript
+- Vite
+
+### AI / RAG Components
+- Speech-to-text pipeline
+- Chunking / preprocessing
+- Vector retrieval
+- Context-based answer generation
 
 ---
 
-## Challenges Faced
+## Use Cases
 
-- Handling large lecture files on low-end hardware
-- Managing local LLM inference efficiently
-- Reducing prompt size for faster generation
-- Ensuring useful transcript chunking for better retrieval
+This project can be extended for:
 
----
-
-## Limitations
-
-- Transcription quality depends on audio clarity
-- Retrieval quality depends on chunking strategy
-- Local LLM inference may be slow on low-resource systems
-- Large models may require higher RAM/compute
+- AI Teaching Assistants
+- Course Q&A systems
+- Subtitle-based search assistants
+- Educational video summarization systems
+- Smart lecture search tools
 
 ---
 
 ## Future Improvements
 
-- Add timestamp-based answer citations
-- Add lecture-wise filtering
-- Add a web frontend using Streamlit or Gradio
-- Add quiz generation from lecture content
-- Add summarization for each lecture
-- Improve retrieval using hybrid search (semantic + keyword)
+- Better frontend UI/UX
+- PDF / PPT / notes ingestion
+- Multi-course support
+- Chat history
+- Answer citations from retrieved chunks
+- Better retrieval ranking
+- Cloud deployment
 
 ---
 
-## Why RAG?
+## Notes
 
-A standard language model may generate generic answers, but a RAG-based system retrieves relevant information directly from the lecture content before generating a response.
-
-This makes the assistant:
-
-- More grounded
-- More accurate
-- More course-specific
-- More useful for students
+- Some folders such as `audios/` and `videos_inMP4/` are included because they are part of the content processing pipeline.
+- Generated / cache / environment-specific files should be excluded using `.gitignore`.
+- Large media files may be removed or replaced with sample files if needed for lightweight sharing.
 
 ---
 
 ## Author
 
 **Uday**
-
----
-
-## License
-
-This project is open-source and available under the MIT License.
+<br>
+-- star if you like it!
