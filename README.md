@@ -1,4 +1,4 @@
-# 🧑‍🏫 Lecuture Lens - AI Teaching Assistant
+# 🧑‍🏫 Lecture Lens - AI Teaching Assistant
 
 AI Teaching Assistant that answers student questions using lecture/course content processed from video and audio resources.
 
