@@ -1,6 +1,6 @@
-# 🧑‍🏫 RAG AI Assistant
+# 🧑‍🏫 Lecuture Lens - AI Teaching Assistant
 
-A Retrieval-Augmented Generation (RAG) based AI Teaching Assistant that answers student questions using lecture/course content processed from video and audio resources.
+AI Teaching Assistant that answers student questions using lecture/course content processed from video and audio resources.
 
 This project converts educational media into searchable knowledge, stores the processed content, retrieves the most relevant chunks for a user query, and generates context-aware answers.
 
@@ -10,7 +10,7 @@ This project converts educational media into searchable knowledge, stores the pr
 
 This project is built to simulate an AI-powered learning assistant for educational content.
 
-It follows a standard RAG pipeline:
+It follows a standard pipeline:
 
 1. **Video / audio input**
 2. **Speech-to-text conversion**
@@ -120,8 +120,7 @@ The project follows a Retrieval-Augmented Generation (RAG) pipeline integrated w
 ## 1) Clone the repository
 
 ```bash
-git clone https://github.com/Uday-1001/RAG-AI-Assistant.git
-cd RAG-AI-Assistant
+git clone https://github.com/Uday-1001/Lecture-Lens.git
 ```
 
 ---
@@ -184,7 +183,7 @@ This will start the backend API server locally.
 - JavaScript
 - Vite
 
-### AI / RAG Components
+### AI Components
 - Speech-to-text pipeline
 - Chunking / preprocessing
 - Vector retrieval
